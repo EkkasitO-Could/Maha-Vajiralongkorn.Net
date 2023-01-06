@@ -1,4 +1,4 @@
-# Maha-Vajiralongkorn.Net
+MO# Maha-Vajiralongkorn.Net
 for our money.เรื่อง	แนะ นำ	ผลิตภัณฑ์	redirect_from	รุ่น	shortTitle
 การทํางานกับรีจิสทรี Docker
 {% ifversion fpt หรือ ghec %} ขณะนี้รีจิสทรี Docker ถูกแทนที่ด้วยข้อมูล {% variables.product.prodname_container_registry %} {% อื่น %} คุณสามารถพุชและดึงอิมเมจ Docker ของคุณโดยใช้รีจิสตรี Docker variables.product.prodname_registryข้อมูล {% %} {% endif %}
@@ -475,3 +475,6 @@ API สําหรับนักพัฒนา
 การอบรม
 บล็อก
 ประมาณ​00399
+- name: Setup .NET Core SDK
+  uses: actions/setup-dotnet@v3.0.3
+
